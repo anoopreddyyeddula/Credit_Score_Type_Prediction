@@ -71,6 +71,13 @@ def get_credit_score_description(score):
             - May require secured credit cards
             - Focus on improving payment history
             """,
+        "Standard": """
+            📊 A standard credit score suggests moderate creditworthiness:
+            - Access to standard credit cards
+            - Moderate interest rates
+            - Room for improvement
+            - Continue maintaining timely payments
+            """,
         "Average": """
             📊 An average credit score suggests moderate creditworthiness:
             - Access to standard credit cards
@@ -175,7 +182,12 @@ def main():
             st.markdown("## Analysis Results")
             
             # Credit Score Display
-            score_colors = {"Poor": "red", "Average": "orange", "Good": "green"}
+            score_colors = {
+                "Poor": "red",
+                "Standard": "orange",
+                "Average": "orange",
+                "Good": "green"
+            }
             st.markdown(f"""
                 <div style='background-color: {score_colors[credit_score]}; 
                             padding: 20px; 
