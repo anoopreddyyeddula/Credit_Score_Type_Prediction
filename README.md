@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Credit Score Type Prediction 💳
 
 A machine learning application that predicts credit score types based on financial information.
@@ -47,3 +48,17 @@ license: mit
 ---
 
 
+=======
+---
+title: Credit Score Type Prediction
+emoji: 🐠
+colorFrom: gray
+colorTo: gray
+sdk: streamlit
+sdk_version: 1.44.1
+app_file: app.py
+pinned: false
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+>>>>>>> bd0b5ed18839f71cdec3a45c75714f998b56d4a3

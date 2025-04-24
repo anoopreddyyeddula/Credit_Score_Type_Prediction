@@ -33,4 +33,7 @@ saved_model/**/* filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.zst filter=lfs diff=lfs merge=lfs -text
 *tfevents* filter=lfs diff=lfs merge=lfs -text
+<<<<<<< HEAD
 train.csv filter=lfs diff=lfs merge=lfs -text
+=======
+>>>>>>> bd0b5ed18839f71cdec3a45c75714f998b56d4a3
