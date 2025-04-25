@@ -42,5 +42,15 @@ The application uses a Random Forest Classifier trained on financial data to pre
 - Outstanding Debt
 - Credit History
 
+## 🔗 Deployment
+- Live on [Hugging Face Spaces](https://huggingface.co/spaces/anoopreddyyeddula/Credit_Score_Type_Prediction) 🚀
+
+---
+
+## 👨‍💻 Author
+
+Made by [Anoop Reddy](https://github.com/anoopreddyyeddula)
+
+
 ## License
 MIT
